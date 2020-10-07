@@ -15444,8 +15444,6 @@ module.exports = g;
 "use strict";
 
 
-console.log("hi");
-
 /***/ }),
 
 /***/ 0:
