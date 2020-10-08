@@ -5,6 +5,9 @@ html{
   box-sizing:border-box;
 }
 body{
+  position:relative;
+  overflow:auto;
+  min-height:100vh;
 }
 p,body,h1,h2,h3,h4,ul{
   margin:0;
@@ -27,6 +30,8 @@ width:48px;
 }
 .header-left{
   margin-left:2em;
+  display:flex;
+  align-items:center;
 }
 .header-right{
   margin-right:2em;
@@ -73,6 +78,10 @@ img{
   padding:0.7em 0.7em;
   background-color:#F3F3F3;
   color:#696969;
+  border-radius:2px;
+}
+.search-buttons input:hover{
+  border:1px solid grey;
 }
 .search-buttons input:nth-child(2){
   margin-left:0.5em;
@@ -98,13 +107,25 @@ img{
 /*Beginning of footer*/
 footer{
   background-color:#F2F2F2;
-  margin-top:25em;
+  position:absolute;
+  width:100%;
+  bottom:0px;
+  left:0;
+  right:0;
+  margin-bottom:0px;
 }
 
 .footer{
   display:flex;
   justify-content:space-between;
   padding:1em;
+}
+.footer a{
+  color:black;
+  text-decoration:none;
+}
+.footer a:hover{
+  text-decoration:underline;
 }
 .footer-left p{
   margin-left:2em;
