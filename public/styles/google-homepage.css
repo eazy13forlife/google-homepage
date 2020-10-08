@@ -59,7 +59,7 @@ button{
 main{
   padding-top:5em;
 }
-img{
+.google-logo{
   width:350px;
 }
 .main-container{
@@ -129,7 +129,7 @@ footer{
 }
 .footer-left p{
   margin-left:2em;
-} 
+}
 .footer-right p{
 margin-right:2em;
 }

@@ -1,0 +1,79 @@
+html{
+  box-sizing:border-box;
+}
+*,*::before,*::after{
+  box-sizing:inherit;
+}
+body, p, h1,h2,h3,h4, ul{
+  margin:0px;
+  padding:0px;
+}
+
+/*Beginning of Header*/
+.google-logo{
+  width:100px;
+}
+
+.top-header{
+  display:flex;
+  justify-content:space-between;
+  margin-top:1em;
+}
+.header-left{
+  display:flex;
+  width:900px;
+  margin-left:2em;
+}
+.header-right{
+  display:flex;
+  width:30%;
+  justify-content:flex-end;
+  align-items:center;
+  margin-right:2em;
+}
+input[type="search"]{
+  margin-left:4em;
+  padding:1em;
+  width:800px;
+  border-radius:20px;
+  border:1px solid #C7CACE;
+}
+input[type="submit"]{
+  height:40px;
+  width:40px;
+  border-radius:50%;
+  background-color:orange;
+  color:white;
+  border:none;
+  font-size:1.2rem;
+}
+.header-right-icon{
+  margin-right:0.5em;
+}
+
+  /*bottom header*/
+.bottom-header{
+  width:700px;
+  display:flex;
+  justify-content:space-between;
+  margin-top:0.5em;
+  margin-left:13em;
+  padding:1em 0em;
+}
+.ul-left,.ul-right{
+  display:flex;
+  list-style-type:none;
+}
+.ul-left li{
+  margin:0em 2em 0em 0em;
+}
+.bottom-header a{
+  text-decoration:none;
+  color:#5F6367;
+}
+.bottom-icon{
+  margin-right:0.3em;
+}
+.ul-right li{
+  margin-left:1em;
+}
