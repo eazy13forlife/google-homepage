@@ -10,6 +10,9 @@ body, p, h1,h2,h3,h4, ul{
 }
 
 /*Beginning of Header*/
+header{
+  border-bottom:1px solid #C7CACE;
+}
 .google-logo{
   width:100px;
 }
@@ -77,3 +80,10 @@ input[type="submit"]{
 .ul-right li{
   margin-left:1em;
 }
+.bottom-header li:active{
+  color:#1B0FAB;
+}
+.bottom-header a:active{
+    color:#1B0FAB;
+}
+/* end of header*/
